@@ -82,11 +82,16 @@ try {
     }
 
     if ($FoundItems.Count -gt 0) {
-        Write-Output "Detected: $($Found -join ', ')"
+        $FinalList = $FoundItems | Select-Object -Unique
+        Write-Output "Detected: $($FinalList -join ', ')"
         exit 1
     }
 
     Write-Output "No bloatware found."
     exit 0
 }
-catch { exit 1 }
+
+catch { 
+    Write-Error "An error occurred during detection."
+    exit 1 
+}
