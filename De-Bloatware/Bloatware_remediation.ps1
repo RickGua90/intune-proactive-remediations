@@ -115,4 +115,4 @@ foreach ($App in ($FinalTargetList | Select-Object -Unique)) {
     }
 }
 
-Write-Output "Universal Remediation Complete for ${Manufacturer} endpoints."
+Write-Output "Remediation Complete for ${Manufacturer} endpoints."
