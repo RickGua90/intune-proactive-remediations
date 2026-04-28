@@ -1,6 +1,11 @@
 <#
     PROJECT: RDP Redirection Warning Fix (Remediation)
     AUTHOR: Rick
+
+    DISCLAIMER: 
+    This script is for testing and educational purposes only. 
+    I hold no responsibility for any system issues or broken 
+    functionality. Use at your own risk.
     
     LOGIC:
     1. Verifies if the Terminal Services Client policy path exists.
