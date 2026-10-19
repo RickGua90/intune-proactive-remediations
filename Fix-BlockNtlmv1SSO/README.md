@@ -14,8 +14,7 @@ This repository contains PowerShell scripts designed for Microsoft Intune Proact
 
 Before deploying these scripts to your entire fleet, it is strongly recommended to use a dedicated Testing Group to validate the results on a small subset of devices.
 
-For a step by step guide on how to set this up, please refer to my documentation here:
-[Intune Proactive Remediations Setup Guide](https://github.com/RickGua90)
+For a step by step guide on how to set this up, please refer to my documentation here: https://github.com/RickGua90/How_To_Do_It
 
 ## Disclaimer
 
